@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77ae8c6a2b3927a46afc2185df2e8ff1, type: 3}
   m_Name: Mew_CharacterData
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  characterName: Geodude
+  characterName: Mew
   maxHealth: 200
   attacks:
   - minDamage: 0
