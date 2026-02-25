@@ -15,15 +15,17 @@ MonoBehaviour:
   characterName: Mew
   maxHealth: 200
   attacks:
-  - minDamage: 0
-    maxDamage: 0
+  - minDamage: 50
+    maxDamage: 150
     attackName: 0
     animationName: Attack_Mew_1
+    attackDuration: 2
     attackParticles: {fileID: 8172849020266659018, guid: 2af5562ce69fc2d448481a1587a352a5, type: 3}
     attackHitParticles: {fileID: 7177991128484655659, guid: 59a35ab9f68edff40b6e5332bed330f5, type: 3}
-  - minDamage: 0
-    maxDamage: 0
+  - minDamage: 50
+    maxDamage: 200
     attackName: 0
     animationName: Attack_Mew_2
+    attackDuration: 2
     attackParticles: {fileID: 8791802859087666345, guid: ae07f2a45f14a82428409cfe410e6002, type: 3}
     attackHitParticles: {fileID: 7177991128484655659, guid: 59a35ab9f68edff40b6e5332bed330f5, type: 3}
