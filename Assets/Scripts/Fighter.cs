@@ -9,6 +9,8 @@ public class Fighter : MonoBehaviour
 {
     [SerializeField]
     private CharacterData characterData;
+
+    public CharacterData CharacterData => characterData;
     [SerializeField]
     private UnityEvent onInitialize;
     private Animator animator;
@@ -55,12 +57,13 @@ public class Fighter : MonoBehaviour
     {
         onInitialize.Invoke();
     }
-    [System.Serializable]
+  
+
+}
+  [System.Serializable]
     public class Attack
     {
         public AttackData attackData;
         public InstantiatePoolObjects particlesPool;
         public InstantiatePoolObjects hitParticlesPool;
     }
-
-}

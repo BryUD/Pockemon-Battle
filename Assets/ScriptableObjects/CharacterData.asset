@@ -15,16 +15,16 @@ MonoBehaviour:
   characterName: Geodude
   maxHealth: 200
   attacks:
-  - minDamage: 50
+  - attackName: "Ara\xF1azo"
+    minDamage: 50
     maxDamage: 150
-    attackName: 0
     animationName: attack_Geo
     attackDuration: 2
     attackParticles: {fileID: 6294508013172393196, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
     attackHitParticles: {fileID: 8771972552311404799, guid: bbf9e36a48d6c5648a13889afab076fd, type: 3}
-  - minDamage: 50
+  - attackName: GolpeDuro
+    minDamage: 50
     maxDamage: 200
-    attackName: 0
     animationName: attack_2_Geo
     attackDuration: 2
     attackParticles: {fileID: 1590415177872986601, guid: acdb90624a404aa438447006f1026065, type: 3}
